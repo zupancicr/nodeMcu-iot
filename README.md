@@ -1,4 +1,4 @@
-# nodeMcu-iot
+# Internet stvari z razvojno ploščo NodeMCU in vozliščem Ubidots
 NodeMCU je nizkocenovni odprtokodni mikrokrmilnik za razvoj naprav IoT. Mikrokmilnik je interaktivna, programabilna, enostavna in pametna naprava z vgrajenim brezžičnim modulom, ki omogoča enostavno povezovanje naprave z internetom. V projektu “internet stvari” smo ga uporabili v kombinaciji s temperaturnim senzorjem DHT-11, ki omogoča merjenje temperature in zračne vlažnosti.
  
 Ideja naprave je zbiranje podatkov in pošiljanje le-teh na vozlišče IoT. Za vozlišče uporabimo platformo Ubidots, kjer določimo novo napravo in ji dodamo spremenljivke. Spremenljivke predstavljajo vrednosti za temperaturo in vlago. Drugi korak implementacije je povezovanje senzorja z mirkormilnikom, nato pa programiranje. Napravo povežemo na znano brezžično omrežje. Sledi branje senzorja in obdelava prebranih podatkov. Podatke zapakiramo v objekt JSON in jih preko HTTP metode POST pošljemo na vozlišče IoT.
