@@ -12,3 +12,4 @@ Razvojno ploščico programiramo z razvojnim okolje Arduino. Pri tem potrebujemo
 * http://nodemcu.com/index_en.html
 * http://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/
 * http://www.iotlearning.net/code/esp8266-code/nodemcu-web-server-showing-dht11-data.php#codesyntax_1
+* http://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/
